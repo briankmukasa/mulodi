@@ -1,379 +1,561 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
   <head>
-    <title>Home &mdash; Mulodi Adventures</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400|Abril+Fatface:400,700" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--  
+    Document Title
+    =============================================
+    -->
+    <title>Home | Mulodi Adventures</title>
+    <!--  
+    Favicons
+    =============================================
+    -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--  
+    Stylesheets
+    =============================================
     
-    <meta name="description" content="Mulodi Adventures Website" />
-    <meta name="keywords" content="Tourism, Uganda, Mulodi" />
-    <meta name="author" content="Mizano Ltd" />
-
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/fancybox.min.css">
-    <link rel="stylesheet" href="css/animsition.min.css">
-    
-
-    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
-
-    <!-- Theme Style -->
-    <link rel="stylesheet" href="css/style.css">
-
-
+    -->
+    <!-- Default stylesheets-->
+    <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template specific stylesheets-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
+    <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
+    <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+    <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+    <!-- Main stylesheet and color file-->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
   </head>
-  <body>
-    <div class="js-animsition animsition" id="site-wrap" data-animsition-in-class="fade-in" data-animsition-out-class="fade-out">
-  
-    <header class="site-header">
-      <div class="container-fluid">
-        <div class="row">
-         <!-- <div class="col-4 site-logo" data-aos="fade"><a href="index.html" class="animsition-link">Mulodi Adventures</a></div>-->
-          <div class="col-4 site-logo" data-aos="fade-up">
+
+  <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+    <main>
+      <div class="page-loader">
+        <div class="loader">Loading...</div>
+      </div>
+      <!-- Nav Section Start -->
+      <nav class="navbar navbar-custom navbar-transparent navbar-fixed-top one-page" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">Mulodi Adventures</a>
           </div>
-          <div class="col-8">
-            <div class="site-menu-toggle js-site-menu-toggle"  data-aos="fade">
-              <span></span>
-              <span></span>
-              <span></span>
+          <div class="collapse navbar-collapse" id="custom-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#totop">Home</a></li>
+              <li><a href="howtoplay.html">How to Play</a></li>
+              <li class="dropdown"><a class="dropdown-toggle" href="destinations.html" data-toggle="dropdown">Destinations</a>
+                <ul class="dropdown-menu">
+                  <li><a href="destinations.html">All</a></li>
+                  <li><a href="destinations.html">Wonders Of Uganda</a></li>
+                  <li><a href="destinations.html">Landing Nests</a></li>
+                  <li><a href="destinations.html">Deep Blue Waters</a></li>
+                  <li><a href="destinations.html">Jungle Paradise</a></li>
+                  <li><a href="destinations.html">Sky Blue Waters</a></li>
+                  <li><a href="destinations.html">Sunrise Forests</a></li>
+                  <li><a href="destinations.html">Royal Islands</a></li>
+                  <li><a href="destinations.html">Sunset Mountains</a></li>
+                  <li><a href="destinations.html">Stewards</a></li>
+                  <li><a href="destinations.html">Sun Cities</a></li>
+                </ul>
+              </li>
+              <li><a href="adventures.html">Adventures</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="mizano.html">Mizano Ltd</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav><!--Nav Section End -->
+
+      <!--Header Section Start-->
+      <section class="home-section home-parallax home-fade home-full-height bg-dark-30" id="home" data-background="assets/images/homepage.jpg">
+        <div class="titan-caption">
+        </div>
+      </section>
+      <!--Header Section End-->
+
+      <div class="main">
+        <section class="module" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <h2 class="module-title font-alt">Welcome to Mulodi Adventures</h2>
+                <div class="module-subtitle font-serif large-text">The Balodi are going on tour! From towering mountains to gushing waterfalls, sweeping parks filled with wildlife to the great lakes and gorgeous islands, Uganda has it all. </div>
+                <div class="module-subtitle font-serif large-text">Whether its rest and relaxation, a thrilling nightlife, the wonders of the wild, or the exploration of new cultures, one thing is for certain – in Uganda, it’s always an Adventure!</div>
+                <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
+              </div>
+              </div>
             </div>
-            <!-- END menu-toggle -->
-            <!--Menu Section Start-->
-            <div class="site-navbar js-site-navbar">
-              <nav role="navigation">
+            <div class="row">
+              <div class="col-sm-2 col-sm-offset-5">
+                <div class="large-text align-center"><a class="section-scroll" href="#services"><i class="fa fa-angle-down"></i></a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- About Mizano -->
+        <section class="module pt-0 pb-0" id="about">
+          <div class="row position-relative m-0">
+            <div class="col-xs-12 col-md-6 side-image" data-background="assets/images/forest.jpg."></div>
+            <div class="col-xs-12 col-md-6 col-md-offset-6 side-image-text">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2 class="module-title font-alt align-left">About Us</h2>
+                  <div class="module-subtitle font-serif align-left">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
+                  <p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words.</p>
+                  <p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr class="divider-w">
+        <!-- About Mizano End -->
+
+        <hr class="divider-w">
+
+        <section class="module module-video bg-dark-30" data-background="assets/images/forest.jpg">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt mb-0">Do you have what it takes to be a Mulodi in the wild?</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Slider Section Start -->
+        <section class="module">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <h2 class="module-title font-alt">Property, Money, Action</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="post-images-slider">
+                  <ul class="slides">
+                    <li><img class="center-block" src="assets/images/propery cards.jpg" alt="Slider Image"/></li>
+                    <li><img class="center-block" src="assets/images/africa.jpg" alt="Slider Image"/></li>
+                    <li><img class="center-block" src="assets/images/money cards.jpg" alt="Slider Image"/></li>
+                    <li><img class="center-block" src="assets/images/ug.jpg" alt="Slider Image"/></li>
+                    <li><img class="center-block" src="assets/images/action cards.jpg" alt="Slider Image"/></li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Slider Section End -->
+
+        <!-- Logo Carousel Start -->
+        <section class="module-small">
+          <div class="container">
+            <div class="row client">
+              <div class="owl-carousel text-center" data-items="6" data-pagination="false" data-navigation="false">
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="client-logo"><img src="assets/images/mizano logo.png" alt="Client Logo"/></div>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="client-logo"><img src="assets/images/mizano logo.png" alt="Client Logo"/></div>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="client-logo"><img src="assets/images/mizano logo.png" alt="Client Logo"/></div>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="client-logo"><img src="assets/images/mizano logo.png" alt="Client Logo"/></div>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="client-logo"><img src="assets/images/mizano logo.png" alt="Client Logo"/></div>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="client-logo"><img src="assets/images/mizano logo.png" alt="Client Logo"/></div>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="client-logo"><img src="assets/images/mizano logo.png" alt="Client Logo"/></div>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="client-logo"><img src="assets/images/mizano logo.png" alt="Client Logo"/></div>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="client-logo"><img src="assets/images/mizano logo.png" alt="Client Logo"/></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Logo Carousel End -->
+
+        <!--icon section start-->
+        <section class="module">
+          <div class="container">
+            <div class="row multi-columns-row">
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="gallery-item">
+                  <div class="gallery-image"><a class="gallery" href="assets/images/blue - icon.jpg" title="Title 1"><img src="assets/images/blue - icon.jpg" alt="Gallery Image 1"/>
+                      <div class="gallery-caption">
+                        <div class="gallery-icon"><span class="icon-magnifying-glass"></span></div>
+                      </div></a></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="gallery-item">
+                  <div class="gallery-image"><a class="gallery" href="assets/images/green icon.jpg" title="Title 2"><img src="assets/images/green icon.jpg" alt="Gallery Image 2"/>
+                      <div class="gallery-caption">
+                        <div class="gallery-icon"><span class="icon-magnifying-glass"></span></div>
+                      </div></a></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="gallery-item">
+                  <div class="gallery-image"><a class="gallery" href="assets/images/yello icon.jpg" title="Title 3"><img src="assets/images/yello icon.jpg" alt="Gallery Image 3"/>
+                      <div class="gallery-caption">
+                        <div class="gallery-icon"><span class="icon-magnifying-glass"></span></div>
+                      </div></a></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="gallery-item">
+                  <div class="gallery-image"><a class="gallery" href="assets/images/purple - icon.jpg" title="Title 4"><img src="assets/images/purple - icon.jpg" alt="Gallery Image 4"/>
+                      <div class="gallery-caption">
+                        <div class="gallery-icon"><span class="icon-magnifying-glass"></span></div>
+                      </div></a></div>
+                </div>
+              </div>
+             
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--icon section end-->
+
+        
+        <!-- Callout to Gallery Section -->
+        <section class="module-small bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
+                <div class="callout-text font-alt">
+                  <h3 class="callout-title">Want to see more ?</h3>
+                  <p>Check Out Our Gallery.</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="callout-btn-box"><a class="btn btn-w btn-round" href="gallery.html">Lets view the gallery</a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Callout to Gallery Section End -->
+
+        <!-- Testimonial Section Start-->
+         <hr class="divider-d">
+        <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="assets/images/forest.jpg">
+          <div class="testimonials-slider pt-140 pb-140">
+            <ul class="slides">
+              <li>
                 <div class="container">
-                  <div class="row full-height align-items-center">
-                    <div class="col-md-12 justify-content-center">
-                      <ul class="list-unstyled menu">
-                        <li class="active"><a href="index.html" class="animsition-link">Home</a></li>
-                        <li><a href="game.html" class="animsition-link">About the game</a></li>
-                        <li><a href="destinations.html" class="animsition-link">Destinations</a></li>  
-                        <li><a href="adventure.html" class="animsition-link">Adventure</a></li>   
-                        <li><a href="gallery.html" class="animsition-link">Gallery</a></li>
-                        <li><a href="about.html" class="animsition-link">Mizano</a></li>
-                        <li><a href="contact.html" class="animsition-link">Contact</a></li>
-                      </ul>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="module-icon"><span class="icon-quote"></span></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                      <blockquote class="testimonial-text font-alt">The game is dope man</blockquote>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4 col-sm-offset-4">
+                      <div class="testimonial-author">
+                        <div class="testimonial-caption font-alt">
+                          <div class="testimonial-title">Jack Woods</div>
+                          <div class="testimonial-descr">SomeCompany INC, CEO</div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </nav>
-            </div><!--Menu Section End-->
+              </li>
+              <li>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="module-icon"><span class="icon-quote"></span></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                      <blockquote class="testimonial-text font-alt">The game is dope man</blockquote>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4 col-sm-offset-4">
+                      <div class="testimonial-author">
+                        <div class="testimonial-caption font-alt">
+                          <div class="testimonial-title">Jim Stone</div>
+                          <div class="testimonial-descr">SomeCompany INC, CEO</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="module-icon"><span class="icon-quote"></span></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                      <blockquote class="testimonial-text font-alt">The game is dope man</blockquote>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4 col-sm-offset-4">
+                      <div class="testimonial-author">
+                        <div class="testimonial-caption font-alt">
+                          <div class="testimonial-title">Adele Snow</div>
+                          <div class="testimonial-descr">SomeCompany INC, CEO</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
-        </div>
-      </div>
-    </header>
-    <!-- END head -->
+        </section>
+        <!-- Testimonial Section End-->
 
-    <!--hero section start-->
-    <section class="site-hero overlay" style="background-image: url(images/home\ page.jpg)">
-      <div class="container">
-        <div class="row site-hero-inner justify-content-center align-items-center">
-          <div class="col-md-10 text-center">
-          </div>
-        </div>
-        <p  data-aos="fade-up" data-aos-offset="-500"><a href="#next-section" class="scroll-down smoothscroll"> <span class="fa fa-play"></span> Scroll Down</a></p>
-      </div> 
-    </section>
-    <!-- hero section end -->
-
-    <!--video section start-->
-    <section class="section bg-light-2">
-      <div class="container"> 
-        <div class="row justify-content-center text-center mb-5">
-          <div class="col-md-8"> 
-            <h2 class="heading" data-aos="fade-up">Once in a lifetime experience</h2>
-            <p class="lead" data-aos="fade-up" data-aos-delay="100">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="embed-responsive embed-responsive-16by9" autoplay loop>
-            <iframe class="embed-responsive-item" src="images/Website Compilation vid 1.mp4"></iframe>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--video section end-->
-
-    <section class="section" id="next-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 mb-4" data-aos="fade-up">
-            <p><img src="images/horizontal.jpg" alt="mulodi long" class="img-fluid"></p>
-          </div>
-          <div class="col-lg-6 pl-lg-5" data-aos="fade-up">
-            <h2 class="mb-4">Do you have what it takes to be a Mulodi in the wild?</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
-            <p class="pt-4">
-              <a href="videos/Website Compilation vid 1.mp4"  data-fancybox class="btn-play d-flex">
-                <span class="icon align-self-center mr-3"><span class="fa fa-play"></span></span>
-                <span class="text align-self-center">Watch The Video</span>
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-     <!--icon section start-->
-    <section class="section bg-light-2">
-      <div class="container">
-        <div class="row justify-content-center text-center mb-5">
-          <div class="col-md-8">
-            <h2 class="heading" data-aos="fade-up">It's time to take your hustle on the road.</h2>
-            <p class="lead" data-aos="fade-up" data-aos-delay="100">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-lg-6 mb-4" data-aos="fade-up">
-            <div class="d-block ">
-              <img src="images/blue - icon.jpg" alt="Free Template by Free-Template.co" class="img-fluid mb-4">
-              <h3>Icon1 </h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="d-block ">
-              <img src="images/green icon.jpg" alt="Free Template by Free-Template.co" class="img-fluid mb-4">
-              <h3>Icon2</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="d-block ">
-              <img src="images/purple - icon.jpg" alt="Free Template by Free-Template.co" class="img-fluid mb-4">
-              <h3>Icon3</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="d-block ">
-              <img src="images/yello icon.jpg" alt="Free Template by Free-Template.co" class="img-fluid mb-4">
-              <h3>Icon4</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-            </div>
-          </div>
-          <!--
-           <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="400">
-            <div class="d-block ">
-              <img src="images/kidepo2.jpg" alt="Free Template by Free-Template.co" class="img-fluid mb-4">
-              <h3>Icon4</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="500">
-            <div class="d-block ">
-              <img src="images/qenp2.jpg" alt="Free Template by Free-Template.co" class="img-fluid mb-4">
-              <h3>Icon5</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-            </div>
-          </div> -->
-
-        </div>
-      </div>
-    </section> <!--icon section end-->
-
-    <!-- slider section start -->
-    <section class="section slider-section">
-      <div class="container">
-        <div class="row justify-content-center text-center mb-5">
-          <div class="col-md-8">
-            <h2 class="heading" data-aos="fade-up">Gallery Carousel.</h2>
-            <p class="lead" data-aos="fade-up" data-aos-delay="100">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="home-slider major-caousel owl-carousel mb-5" data-aos="fade-up" data-aos-delay="200">
-              <div class="slider-item">
-                <img src="images/propery cards.jpg" alt="Image placeholder" class="img-fluid">
-              </div>
-              <div class="slider-item">
-                <img src="images/africa.jpg" alt="Image placeholder" class="img-fluid">
-              </div>
-              <div class="slider-item">
-                <img src="images/money cards.jpg" alt="Image placeholder" class="img-fluid">
-              </div>
-              <div class="slider-item">
-                <img src="images/ug.jpg" alt="Image placeholder" class="img-fluid">
-              </div>
-              <div class="slider-item">
-                <img src="images/action cards.jpg" alt="Image placeholder" class="img-fluid">
-              </div>
-              <div class="slider-item">
-                <img src="images/africa.jpg" alt="Image placeholder" class="img-fluid">
+        <!-- Activities Section Start-->
+        <section class="module" id="news">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Latest Events & Activities</h2>
+                <div class="module-subtitle font-serif">Here's what we've been up to</div>
               </div>
             </div>
-            <!-- END slider -->
+            <div class="row multi-columns-row post-columns">
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="https://www.instagram.com/p/CNZN7cjL1ae/""><img src="assets/images/img_1.jpg" alt="Blog-post Thumbnail"/></a></div>
+                  <div class="post-header font-alt">
+                    <h2 class="post-title"><a href="https://www.instagram.com/p/CNZN7cjL1ae/"">Mulodi & Brunch</a></h2>
+                    <div class="post-meta">By&nbsp;<a href="https://www.instagram.com/p/CNZN7cjL1ae/"">Mizano</a>&nbsp;| April 10, 2022 | 3 Comments
+                    </div>
+                  </div>
+                  <div class="post-entry">
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                  </div>
+                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="https://www.instagram.com/p/CUr8cldIyCi/"><img src="assets/images/img_1.jpg" alt="Blog-post Thumbnail"/></a></div>
+                  <div class="post-header font-alt">
+                    <h2 class="post-title"><a href="https://www.instagram.com/p/CUr8cldIyCi/">Independence Day Giveaway</a></h2>
+                    <div class="post-meta">By&nbsp;<a href="https://www.instagram.com/p/CUr8cldIyCi/">Mizano</a>&nbsp;| October 9, 2021 | 4 Comments
+                    </div>
+                  </div>
+                  <div class="post-entry">
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                  </div>
+                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="https://www.instagram.com/p/COcXWPBLT5d/"><img src="assets/images/img_1.jpg" alt="Blog-post Thumbnail"/></a></div>
+                  <div class="post-header font-alt">
+                    <h2 class="post-title"><a href="https://www.instagram.com/p/COcXWPBLT5d/">Mizano Made Vibes</a></h2>
+                    <div class="post-meta">By&nbsp;<a href="https://www.instagram.com/p/COcXWPBLT5d/">Mizano</a>&nbsp;| May 8, 2021 | 15 Comments
+                    </div>
+                  </div>
+                  <div class="post-entry">
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                  </div>
+                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
+                </div>
+              </div>
+            </div>
           </div>
+        </section>
+        <!-- Activities Section End-->
+
+        <!--Contact Call to Action Start-->
+        <section class="module-small bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3 text-center">
+                <h4 class="font-alt mb-20">Grab a Deck Today!</h4><a class="btn btn-border-w" href="#contact">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Contact Call to Action Start-->
         
-        </div>
+        <!-- Contact Form Section Start--> 
+        <section class="module" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Get in touch</h2>
+                <div class="module-subtitle font-serif"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <form id="contactForm" role="form" method="post" action="php/contact.php">
+                  <div class="form-group">
+                    <label class="sr-only" for="name">Name</label>
+                    <input class="form-control" type="text" id="name" name="name" placeholder="Your Name*" required="required" data-validation-required-message="Please enter your name."/>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="email">Email</label>
+                    <input class="form-control" type="email" id="email" name="email" placeholder="Your Email*" required="required" data-validation-required-message="Please enter your email address."/>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" rows="7" id="message" name="message" placeholder="Your Message*" required="required" data-validation-required-message="Please enter your message."></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="text-center">
+                    <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit">Submit</button>
+                  </div>
+                </form>
+                <div class="ajax-response font-alt" id="contactFormResponse"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Contact Form Section End--> 
+
+        <!-- Footer Section Start -->
+        <div class="module-small bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">About Mizano Ltd</h5>
+                  <p>We are a collective of creative entrepreneurs who design fun, educational Ugandan games.</p>
+                  <p>Phone: +256 785 138650</p>
+                  <p>Email:<a href="mailto:mizanoltd@gmail.com"> mizanoltd@gmail.com</a></p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Quick Links</h5>
+                  <ul class="icon-list">
+                    <li><a href="#">Mizano Ltd</a></li>
+                    <li><a href="#">How to Play</a></li>
+                    <li><a href="#">The OG Mulodi</a></li>
+                    <li><a href="#">Events</a></li>
+                    
+                  </ul>
+                </div>
+              </div>
+              <!-- <div class="col-sm-4">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Blog Categories</h5>
+                  <ul class="icon-list">
+                    <li><a href="#">Photography - 7</a></li>
+                    <li><a href="#">Web Design - 3</a></li>
+                    <li><a href="#">Illustration - 12</a></li>
+                    <li><a href="#">Marketing - 1</a></li>
+                    <li><a href="#">Wordpress - 16</a></li>
+                  </ul>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div> 
+
+        <hr class="divider-d">
+        <footer class="footer bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="copyright font-alt">&copy; 2022&nbsp;<a href="mizano.html">Mizano Ltd</a>, All Rights Reserved</p>
+              </div>
+              <div class="col-sm-6">
+                <div class="footer-social-links"><a href="https://www.instagram.com/mizanoltd/"><i class="fa fa-instagram"></i></a> <a href="https://twitter.com/MizanoLtd"><i class="fa fa-twitter"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer> <!--Footer Section End-->
       </div>
-    </section>
-    <!-- slider section end -->
-    
-   <!--Activities section start-->
-    <section class="section blog-post-entry bg-light slant-top">
-      <div class="container">
-        <div class="row justify-content-center text-center mb-5">
-          <div class="col-md-8 primary-bg-text">
-            <h2 class="heading" data-aos="fade-up">Recent/Future Activities</h2>
-            <p class="lead" data-aos="fade-up">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="media media-custom d-block mb-4">
-              <a href="https://www.instagram.com/p/CNZN7cjL1ae/" class="mb-4 d-block"><img src="images/img_1.jpg" alt="Image placeholder" class="img-fluid"></a>
-              <div class="media-body">
-                <span class="meta-post">April 10, 2022</span>
-                <h2 class="mt-0 mb-3"><a href="https://www.instagram.com/p/CNZN7cjL1ae/">Mulodi & Brunch</a></h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-              </div>
-            </div>
-
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="200">
-            <div class="media media-custom d-block mb-4">
-              <a href="https://www.instagram.com/p/CUr8cldIyCi/" class="mb-4 d-block"><img src="images/img_2.jpg" alt="Image placeholder" class="img-fluid"></a>
-              <div class="media-body">
-                <span class="meta-post">October 9, 2021</span>
-                <h2 class="mt-0 mb-3"><a href="https://www.instagram.com/p/CUr8cldIyCi/">Independence Day Giveaway</a></h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12 post" data-aos="fade-up" data-aos-delay="300">
-            <div class="media media-custom d-block mb-4">
-              <a href="https://www.instagram.com/p/COcXWPBLT5d/" class="mb-4 d-block"><img src="images/img_3.jpg" alt="Image placeholder" class="img-fluid"></a>
-              <div class="media-body">
-                <span class="meta-post">May 8, 2021</span>
-                <h2 class="mt-0 mb-3"><a href="https://www.instagram.com/p/COcXWPBLT5d/">Mizano Made Vibes</a></h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Activities section end -->
-
-    
-    <!--Testimonials section start-->
-    <section class="section testimonial-section bg-light-2">
-      <div class="container">
-        <div class="row justify-content-center text-center mb-5">
-          <div class="col-md-8">
-            <h2 class="heading" data-aos="fade-up">Happy Customers</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="testimonial">
-              <div class="author-image mb-3">
-                <img src="images/mizano logo.png" alt="Image placeholder" class="rounded-circle">
-              </div>
-              <blockquote>
-
-                <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-              </blockquote>
-              <p><em>&mdash; Person 1</em></p>
-              
-            </div>
-          </div>
-          <!-- END col -->
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="testimonial">
-              <div class="author-image mb-3">
-                <img src="images/mizano logo.png" alt="Image placeholder" class="rounded-circle">
-              </div>
-              <blockquote>
-                <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.rdquo;</p>
-              </blockquote>
-              <p><em>&mdash; Person 2</em></p>
-            </div>
-          </div>
-          <!-- END col -->
-
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="testimonial">
-              <div class="author-image mb-3">
-                <img src="images/mizano logo.png" alt="Image placeholder" class="rounded-circle">
-              </div>
-              <blockquote>
-
-                <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-              </blockquote>
-              <p><em>&mdash; Person 3</em></p>
-            </div>
-          </div>
-          <!-- END col -->
-        </div>
-      </div>
-    </section>
-     <!--Testimonials section end-->
-
-    
-    <!--Footer Section Start-->
-    <footer class="section footer-section">
-      <div class="container">
-        <div class="row mb-4">
-          <div class="col-md-3 mb-5">
-            <h3>Menu</h3>
-            <ul class="list-unstyled link">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="#">About the game</a></li>
-              <li><a href="destinations.html">Destinations</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-             <li><a href="about.html">Mizano Ltd</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-5">
-            <h3>Quick Links</h3>
-            <ul class="list-unstyled link">
-              <li><a href="#">Game Rules</a></li>
-              <li><a href="#">Events </a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Other games</a></li>
-              <li><a href="#">Partner Hotels</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-5 pr-md-5 contact-info">
-            <h3>Contact Info</h3>
-            <p><span class="d-block">Address:</span> <span> Kampala, Uganda</span></p>
-            <p><a href="tel:+256785138650"><span class="d-block">Phone:</span> <span>(+256) 785 138650</span></a></p>
-            <p><a href="mailto:mizanoltd@gmail.com"><span class="d-block">Email:</span> <span>mizanoltd@gmail.com</span></a></p>
-          </div>
-          <div class="col-md-3 mb-5">
-            <h3>Get in Touch</h3>
-            <p>Check out our socials</p>
-            <p class="col-md-6 social">
-              <a href="https://twitter.com/MizanoLtd"><span class="fa fa-twitter"> Twitter</span></a>
-              <a href="https://www.instagram.com/mizanoltd"><span class="fa fa-instagram"> Instagram</span></a>
-            </p>
-          </div>
-        </div>
-        <div class="row bordertop text-center pt-5">
-          <p class="col-md-12">&copy; Copyright 2018. All Rights Reserved.</p>
-        </div>
-      </div>
-    </footer> <!-- Footer Section End -->
-    
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/animsition.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/main.js"></script>
+      <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
+    </main>
+    <!--  
+    JavaScripts
+    =============================================
+    -->
+    <script src="assets/lib/jquery/dist/jquery.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/lib/wow/dist/wow.js"></script>
+    <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+    <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+    <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="assets/lib/smoothscroll.js"></script>
+    <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
